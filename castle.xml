@@ -1,0 +1,557 @@
+<config check="bfcce105a407021991785725510db260">
+    <assets>
+        <asset id="room" path="assets/room.swf"/>
+    </assets>
+    <sounds>
+        <sound id="roomBackground" volume="0.4" path="audio/background.mp3" loops="-1"/>
+        <sound id="roomBackground2" volume="0.4" path="audio/evronBackground.mp3" loops="-1" backgroundmusic="0"/>
+        <sound id="ghostTheme" volume="0.4" path="audio/GHOST_THEME.mp3" loops="-1"/>
+        <sound id="raven0" volume="0.4" path="audio/raven0.mp3" loops="-1" backgroundmusic="1" date="scareScrowWeek4" gamestate="122,0,250-259"/>
+        <sound id="raven1" volume="0.4" path="audio/raven1.mp3" loops="-1" backgroundmusic="1" date="scareScrowWeek4" gamestate="122,0,260"/>
+        <sound id="raven23" volume="0.4" path="audio/raven23.mp3" loops="-1" backgroundmusic="1" date="scareScrowWeek4" gamestate="122,0,262-266"/>
+        <sound id="raven456" volume="0.4" path="audio/raven456.mp3" loops="-1" backgroundmusic="1" date="scareScrowWeek4" gamestate="122,0,268-272"/>
+        <sound id="raven78910" volume="0.4" path="audio/raven78910.mp3" loops="-1" backgroundmusic="1" date="scareScrowWeek4" gamestate="122,0,274-300"/>
+        <sound id="timeTravel" volume="0.4" path="audio/timeTravel.mp3" backgroundmusic="1" loops="-1" date="bday" gamestate="127,0,200"/>
+    </sounds>
+    <dates>
+        <date id="halloweenQuestPrep1" start="Oct 23 2009" finish="Oct 25 2009" check="4f040dc66bb5320"/>
+        <date id="halloweenQuestPrep2" start="Oct 25 2009" finish="Oct 27 2009" check="c511e9a479989ab"/>
+        <date id="halloweenQuest" start="Oct 26 2009" finish="Nov 2 2009" check="9aedd9e4045367f"/>
+        <date id="halloweenQuestTesting" start="Oct 23 2009" finish="Oct 27 2009" check="217efe5a3bdd9b5"/>
+        <date id="panfuAnniversary" start="Dec 7 2009" finish="Dec 14 2009" check="98ed33f7cd96b5f"/>
+        <date id="iglooSnowQuestDay1" start="Jan 26 2010" finish="Jan 27 2010" check="3c2833b1696cd89"/>
+        <date id="valentinesDayQuestCastle" start="Feb 9 2010" finish="Feb 15 2010" check="e3a71929260c976"/>
+        <date id="lanternFestival" start="Feb 23 2010" finish="Mar 1 2010" check="ddb66f68f764747"/>
+        <date id="summerFeature" start="May 27 2010" finish="Jun 10 2010" check="d06bb15094157a0"/>
+        <date id="summerQuest1" start="Jul 6 2010" finish="Sep 5 2010" check="2307d82fb677016"/>
+        <date id="summerQuest2" start="Jul 6 2010" finish="Sep 5 2010" check="2307d82fb677016"/>
+        <date id="summerQuest3" start="Aug 20 2010" finish="Aug 21 2010" check="3ca3263e705334b"/>
+        <date id="summerQuest4" start="Sep 4 2010" finish="Sep 11 2010" check="f874be35b0bec04"/>
+        <date id="newCourt" start="Sep 9 2010" finish="Sep 18 2010" check="9a528942286e844"/>
+        <date id="stMartinQuest" start="Nov 11 2010" finish="Nov 15 2010" check="e7c41d6ca7b628e"/>
+        <date id="gulliver" start="Jan 20 2011" finish="Feb 11 2011" check="638d9d79c320f5e"/>
+        <date id="transition2" start="Jan 27 2011" finish="Jan 28 2011" check="83092ec1c7cf604"/>
+        <date id="transition2a" start="Jan 28 2011" finish="Jan 29 2011" check="7027ac0d453a675"/>
+        <date id="transition3" start="Feb 2 2011" finish="Feb 9 2011" check="2a3ae06ad1b83c2"/>
+        <date id="carnival2011" start="Mar 2 2011" finish="Mar 8 2011" check="e042d583666232c"/>
+        <date id="whosThatBoy2" start="Mar 16 2011" finish="Mar 23 2011" check="19d225fd063858e"/>
+        <date id="circusQuest" start="Apr 16 2011" finish="May 3 2011" check="ea42b0c341071fa"/>
+        <date id="newYearsEve" start="Dec 28 2011" finish="Jan 2 2012" check="84846806ed2e824"/>
+        <date id="snowmanAttack" start="Feb 8 2012" finish="Mar 5 2012" check="78e11c34feb0cc3"/>
+        <date id="easter" start="Apr 4 2012" finish="Apr 11 2012" check="b8cf99fa9d168c8"/>
+        <date id="easter2" start="Mar 28 2012" finish="Apr 11 2012" check="423b84d37135a83"/>
+        <date id="treeMonster" start="Oct 2 2013" finish="Oct 30 2013" check="87661315f45796a"/>
+        <date id="treeMonsterState1" start="Oct 2 2013" finish="Oct 4 2013" check="d7b8256598e75a2"/>
+        <date id="treeMonsterState2" start="Oct 4 2013" finish="Oct 6 2013" check="a70bd9ebfa62b9e"/>
+        <date id="treeMonsterState3" start="Oct 6 2013" finish="Oct 30 2013" check="4ba10dbbdf7ee01"/>
+        <date id="backToSchool3" start="Sep 5 2012" finish="Sep 12 2012" check="397b460543aac01"/>
+        <date id="scareScrowWeek2" start="Nov 6 2013" finish="Nov 13 2013" check="1ac6c4613fbc121"/>
+        <date id="scareScrowWeek4" start="Nov 20 2013" finish="Nov 27 2013" check="6a0d5a956ddbb63"/>
+        <date id="panfuBirthday" start="Jan 2 2013" finish="Jan 30 2013" check="1f840cd0cc57575"/>
+        <date id="bday" start="Jan 21 2013" finish="Jan 22 2013" check="b8b5ccdcca0888a"/>
+        <date id="winterAttack" start="Feb 6 2013" finish="Feb 5 2050"/>
+        <date id="winterAttack" start="Jan 29 2050"finish="Feb 5 2050"/> <!-- this code is fine if removing the checks-->
+    </dates>
+<module>
+    <waterBombReactions>
+        <zone idTarget="monsterFaceWaterbomb" reaction="monsterWaterbombReaction" assetExplosion="waterbombExplosionSteam" soundExplosion="waterbombSplashSteam"/>
+        <zone idTarget="Evron" reaction="evronWaterbombReaction" assetExplosion="waterbombExplosionSteam" soundExplosion="waterbombSplashSteam"/>
+    </waterBombReactions>
+    <elements>
+        <element id="missingEllaPoster" button="0" visible="0">
+            <checks>
+                <visible value="1" gamestate="137,0,15-285"/>
+                <button value="1" gamestate="137,3,0"/>
+                <frame value=":empty" gamestate="137,3,0"/>
+                <frame value=":full" gamestate="137,3,1"/>
+            </checks>
+            <button type="click" click="1"/>
+            <message value="missingElla.PosterTagged3" type="missingElla"/>
+        </element>
+        <element id="lemon10" button="1" visible="0">
+            <checks>
+                <visible value="1" gamestate="134,0,210-255" gamestate2="134,10,0"/>
+            </checks>
+            <button type="click" click="1"/>
+            <message value="sickIris.lemon10Clicked" type="sickIris"/>
+        </element>
+        <element id="frozenCastle" button="0" visible="0">
+            <checks>
+                <visible value="1" date="winterAttack" gamestate="129,0,12-199"/>
+                <frame value=":state2" date="winterAttack4" gamestate="129,0,160"/>
+                <frame value=":state3" date="winterAttack4" gamestate="129,0,165"/>
+                <frame value=":state4" date="winterAttack4" gamestate="129,0,170"/>
+                <frame value=":state5" date="winterAttack4" gamestate="129,0,175"/>
+                <frame value=":state6" date="winterAttack4" gamestate="129,0,180"/>
+                <frame value=":state7" date="winterAttack4" gamestate="129,0,185"/>
+                <frame value=":state8" date="winterAttack4" gamestate="129,0,190"/>
+            </checks>
+        </element>
+        <element id="castleFlag" button="0" visible="1">
+            <checks>
+                <visible value="0" date="winterAttack" gamestate="129,0,12-155"/>
+            </checks>
+        </element>
+        <element id="drawBridge" button="0" visible="1">
+            <checks>
+                <visible value="0" date="winterAttack" gamestate="129,0,12-190"/>
+            </checks>
+        </element>
+        <element id="wetherChicken" button="0" visible="1">
+            <checks>
+                <visible value="0" date="winterAttack" gamestate="129,0,12-155"/>
+            </checks>
+        </element>
+        <element id="flame1" button="0" visible="1">
+            <checks>
+                <visible value="0" date="winterAttack" gamestate="129,0,12-180"/>
+            </checks>
+        </element>
+        <element id="flame2" button="0" visible="1">
+            <checks>
+                <visible value="0" date="winterAttack" gamestate="129,0,12-180"/>
+            </checks>
+        </element>
+        <element type="bdayDoor" button="1" visible="0">
+            <checks>
+                <visible value="1" gamestate="127,0,200" date="bday"/>
+            </checks>
+            <button type="overClick" over="2" out="1" click="1"/>
+            <message value="gotoHotSpot">
+                <hotSpot value="bdayDoor"/>
+            </message>
+        </element>
+        <element id="confetti" button="0" visible="0">
+            <checks>
+                <visible value="1" date="panfuBirthday" doesNotHaveOneItem="104152"/>
+            </checks>
+        </element>
+        <element id="balloons" button="0" visible="0">
+            <checks>
+                <visible value="1" date="panfuBirthday" doesNotHaveOneItem="104152"/>
+            </checks>
+        </element>
+        <element id="crows" button="0" visible="0">
+            <checks>
+                <frame value=":state1" date="scareScrowWeek4" gamestate="122,0,260"/>
+                <frame value=":state2" date="scareScrowWeek4" gamestate="122,0,262"/>
+                <frame value=":state3" date="scareScrowWeek4" gamestate="122,0,264"/>
+                <frame value=":state4" date="scareScrowWeek4" gamestate="122,0,266"/>
+                <frame value=":state5" date="scareScrowWeek4" gamestate="122,0,268"/>
+                <frame value=":state6" date="scareScrowWeek4" gamestate="122,0,270"/>
+                <frame value=":state7" date="scareScrowWeek4" gamestate="122,0,272"/>
+                <frame value=":state8" date="scareScrowWeek4" gamestate="122,0,274"/>
+                <frame value=":state9" date="scareScrowWeek4" gamestate="122,0,276"/>
+                <frame value=":state9" date="scareScrowWeek4" gamestate="122,0,278"/>
+                <frame value=":state10" date="scareScrowWeek4" gamestate="122,0,300"/>
+                <visible value="1" date="scareScrowWeek4" gamestate="122,0,260-300"/>
+            </checks>
+        </element>
+        <element id="paperPlane" button="1" visible="0">
+            <checks>
+                <visible value="1" date="backToSchool3" gamestate="121,13,0" gamestate2="121,0,160-175"/>
+            </checks>
+            <button type="overClick" over="2" out="1" click="999"/>
+            <message value="backToSchool.paperPlaneClicked" type="backToSchool"/>
+        </element>
+        <element id="Evron" button="0" visible="0">
+            <checks>
+                <button value="1" date="winterAttack" gamestate="129,0,5"/>
+                <visible value="1" date="winterAttack" gamestate="129,0,0-12"/>
+            </checks>
+            <button type="click" click="999"/>
+            <message value="talkToNPC" type="client">
+                <id value="EVRON_CASTLE"/>
+            </message>
+        </element>
+        <element id="monsterFaceWaterbomb" button="0" visible="0">
+            <checks>
+                <visible value="1" date="treeMonsterState3" gamestate="117,0,50-270"/>
+            </checks>
+        </element>
+        <element id="monster" button="0" visible="0">
+            <checks>
+                <frame value=":small" date="treeMonsterState1" gamestate="117,0,15-49"/>
+                <frame value=":medium" date="treeMonsterState2" gamestate="117,0,15-49"/>
+                <frame value=":huge" date="treeMonsterState3" gamestate="117,0,50-255"/>
+                <frame value=":state1" date="treeMonsterState3" gamestate="117,0,260"/>
+                <frame value=":state2" date="treeMonsterState3" gamestate="117,0,265"/>
+                <frame value=":state3" date="treeMonsterState3" gamestate="117,0,270"/>
+                <frame value=":state4" date="treeMonsterState3" gamestate="117,0,275"/>
+                <visible value="1" date="treeMonster"/>
+            </checks>
+        </element>
+        <element id="secretEgg" button="1" visible="0">
+            <checks>
+                <visible value="1" date="easter2" gamestate="111,12,2"/>
+            </checks>
+            <button type="click" click="999"/>
+            <message value="easter.ScretClicked" type="easter"/>
+        </element>
+        <element id="star" button="0" visible="0">
+            <checks>
+                <visible value="1" date="easter2" gamestate="111,12,1"/>
+            </checks>
+        </element>
+        <element id="chicken" button="0" visible="0">
+            <checks>
+                <visible value="1" date="easter" gamestate="111,7,1"/>
+                <button value="1" date="easter" gamestate="111,7,1"/>
+            </checks>
+            <button type="click" click="1"/>
+            <message value="easter.ChickenClicked" type="easter"/>
+        </element>
+        <element id="scareCrowSign" button="0" visible="0">
+            <checks>
+                <visible value="1" date="scareScrowWeek2"/>
+            </checks>
+        </element>
+        <element id="newYear" button="0" visible="0">
+            <checks>
+                <visible value="1" date="newYearsEve"/>
+            </checks>
+        </element>
+        <element id="poster" button="1" visible="0" notWalkable="true">
+            <checks>
+                <visible value="1" date="circusQuest"/>
+            </checks>
+            <button type="click" click="99"/>
+            <message value="circusQuest.showPoster" type="circusQuest"/>
+        </element>
+        <element id="lili" button="1" visible="0">
+            <checks>
+                <visible value="1" gamestate="70,0,50-51" date="whosThatBoy2"/>
+            </checks>
+            <button type="overClick" click="1" over="2" out="1"/>
+            <message value="whosThatBoy2.talkToLili2" type="whosThatBoy2"/>
+        </element>
+        <element id="clown" button="1" visible="0">
+            <checks>
+                <visible value="1" gamestate="68,0,20-25" date="carnival2011"/>
+            </checks>
+            <button type="overClick" click="3" over="3" out="1"/>
+            <message value="carnival2011.talkToClown" type="carnival2011"/>
+        </element>
+        <element id="candys" button="0" visible="0">
+            <checks>
+                <visible value="1" gamestate="68,0,20-26" date="carnival2011"/>
+            </checks>
+        </element>
+        <element id="darkcloud" button="0" visible="0">
+            <checks>
+                <visible value="1" gamestate="62,0,29-33"/>
+            </checks>
+        </element>
+        <element id="kiosk" button="0" visible="0">
+            <checks>
+                <visible value="1" date="transition2"/>
+            </checks>
+        </element>
+        <element id="troy" button="1" visible="0">
+            <checks>
+                <visible value="1" date="transition2"/>
+            </checks>
+            <button type="click" click="99"/>
+            <message value="transitionQuest.talkToTroy" type="transitionQuest"/>
+        </element>
+        <element id="pancakePieces" button="0" visible="0">
+            <checks>
+                <visible value="1" date="transition2a"/>
+            </checks>
+        </element>
+        <element id="sand" button="1" visible="0" notWalkable="true">
+            <checks>
+                <visible value="1" date="gulliver" gamestate="63,0,9" doesNotHaveOneItem="103009"/>
+            </checks>
+            <button type="overClick" over="1" out="1" click="1"/>
+            <message value="gulliver.sandClicked" type="gulliver"/>
+        </element>
+        <element id="lantern" button="1" visible="0" notWalkable="true">
+            <checks>
+                <visible value="1" gamestate="55,0,10-999" date="stMartinQuest"/>
+            </checks>
+            <button type="click" click="99"/>
+            <message value="stMartinQuest.lightLantern" type="stMartinQuest"/>
+        </element>
+        <element id="giftBox" button="1" visible="0">
+            <checks>
+                <visible value="1" gamestate="44,2,16"/>
+            </checks>
+            <button type="click" click="3"/>
+            <message value="castleGiftClicked" type="welcomeTour"/>
+        </element>
+        <element id="krucio" button="1" visible="0" notWalkable="true">
+            <checks>
+                <visible value="1" gamestate="43,0,0-29" date="summerQuest1"/>
+                <visible value="1" gamestate="43,0,140-199" date="summerQuest1"/>
+                <visible value="1" gamestate="43,0,300-359" date="summerQuest1"/>
+                <visible value="1" gamestate="43,0,460-462" date="summerQuest1"/>
+                <visible value="1" gamestate="43,0,650-654" date="summerQuest4"/>
+            </checks>
+            <button type="overClick" click="1" over="1" out="1"/>
+            <message value="summerQuest.talkToWizard" type="summerQuest"/>
+        </element>
+        <element id="stoned_roof" button="1" visible="0" notWalkable="true">
+            <checks>
+                <visible value="1" gamestate="43,0,10-11" date="summerQuest2"/>
+            </checks>
+            <button type="click" click="99"/>
+            <message value="summerQuest.convertRoof" type="summerQuest"/>
+        </element>
+        <element id="krucio2" button="1" visible="0" notWalkable="true">
+            <checks>
+                <visible value="1" gamestate="43,0,30-79" date="summerQuest1"/>
+                <visible value="1" gamestate="43,0,200-249" date="summerQuest1"/>
+                <visible value="1" gamestate="43,0,360-399" date="summerQuest1"/>
+                <visible value="1" gamestate="43,0,463-579" date="summerQuest1"/>
+            </checks>
+            <button type="overClick" click="1" over="1" out="1"/>
+            <message value="summerQuest.talkToWizard2" type="summerQuest"/>
+        </element>
+        <element id="krucio3" button="1" visible="0" notWalkable="true">
+            <checks>
+                <visible value="1" gamestate="43,0,80-139" date="summerQuest1"/>
+                <visible value="1" gamestate="43,0,250-299" date="summerQuest1"/>
+                <visible value="1" gamestate="43,0,400-459" date="summerQuest1"/>
+                <visible value="1" gamestate="43,0,580-649" date="summerQuest1"/>
+            </checks>
+            <button type="overClick" click="1" over="1" out="1"/>
+            <message value="summerQuest.talkToWizard3" type="summerQuest"/>
+        </element>
+        <element id="young_crucio" button="1" visible="0" notWalkable="true">
+            <checks>
+                <visible value="1" gamestate="43,0,655-656" date="summerQuest4"/>
+            </checks>
+            <button type="overClick" click="1" over="1" out="1"/>
+            <message value="summerQuest.talkToWizard4" type="summerQuest"/>
+        </element>
+        <element id="stoned_bird" button="1" visible="0" notWalkable="true">
+            <checks>
+                <visible value="1" gamestate="43,0,500-501" date="summerQuest3" requestHasOneActiveItem="102410" requestHasOneItem="102448"/>
+            </checks>
+            <button type="click" click="99"/>
+            <message value="summerQuest.convertBird" type="summerQuest"/>
+        </element>
+        <element id="bird_animated" button="0" visible="1" notWalkable="true">
+            <checks>
+                <visible value="0" gamestate="43,0,500-501" date="summerQuest3" requestHasOneActiveItem="102410" requestHasOneItem="102448"/>
+            </checks>
+        </element>
+        <element id="kamaria4" button="1" visible="0" notWalkable="true">
+            <checks>
+                <visible value="1" gamestate="43,0,653-656" date="summerQuest4"/>
+            </checks>
+            <button type="overClick" over="2" out="1" click="2"/>
+            <message value="summerQuest.talkToKamaria4" type="summerQuest"/>
+        </element>
+        <element id="lanterns" visible="0">
+            <checks>
+                <visible value="1" date="lanternFestival"/>
+            </checks>
+        </element>
+        <element id="squLantern1" button="0" visible="0">
+            <checks>
+                <visible value="1" date="lanternFestival"/>
+            </checks>
+            <checks>
+                <button value="1" gamestate="26,0,5-6"/>
+            </checks>
+            <button type="click" click="1"/>
+            <message value="chineseLanternFestival.showPopup"/>
+        </element>
+        <element id="hearts1" visible="0">
+            <checks>
+                <visible value="1" date="valentinesDayQuestCastle"/>
+            </checks>
+        </element>
+        <element id="hearts2" visible="0">
+            <checks>
+                <visible value="1" date="valentinesDayQuestCastle"/>
+            </checks>
+        </element>
+        <element id="garland1" visible="0">
+            <checks>
+                <visible value="1" date="valentinesDayQuestCastle"/>
+            </checks>
+        </element>
+        <element id="garland2" visible="0">
+            <checks>
+                <visible value="1" date="valentinesDayQuestCastle"/>
+            </checks>
+        </element>
+        <element id="bush1" visible="0">
+            <checks>
+                <visible value="1" date="valentinesDayQuestCastle"/>
+            </checks>
+        </element>
+        <element id="bush2" visible="0">
+            <checks>
+                <visible value="1" date="valentinesDayQuestCastle"/>
+            </checks>
+        </element>
+        <element id="Snowman" button="1" visible="0" notWalkable="true">
+            <checks>
+                <visible value="1" date="iglooSnowQuestDay1" doesNotHaveOneItem="101596" gamestate="23,0,1"/>
+            </checks>
+            <button type="overClick" click="2" over="3" out="2"/>
+            <message value="iglooSnowQuest.getSnow2" type="iglooSnowQuest"/>
+        </element>
+        <element id="banner" button="0" visible="0">
+            <checks>
+                <visible value="1" date="panfuAnniversary"/>
+            </checks>
+        </element>
+        <element id="track4" button="1" visible="0">
+            <checks>
+                <button value="0" gamestate="17,4,1"/>
+                <visible value="1" gamestate="17,0,2"/>
+                <visible value="1" gamestate="17,4,1"/>
+                <frame value=":highlight" gamestate="17,4,1"/>
+            </checks>
+            <button type="overClick" click="2" out="2" over="3"/>
+            <message value="bigBootQuest.track4" type="bigBootQuest"/>
+        </element>
+        <element id="monsterNPC" visible="0" button="1" date="halloweenQuest">
+            <checks>
+                <visible value="1" date="halloweenQuest" gamestate="12,0,0-5"/>
+            </checks>
+            <button type="click" click="1"/>
+            <message value="halloweenQuest.talkToNpc1" type="halloweenQuest"/>
+        </element>
+        <element id="devReset" button="1" visible="0">
+            <checks>
+                <visible value="1" date="halloweenQuestTesting" mode="dev"/>
+            </checks>
+            <button type="click" click="1"/>
+            <message value="halloweenQuest.reset" type="halloweenQuest"/>
+        </element>
+        <element id="devTest" button="1" visible="0">
+            <checks>
+                <visible value="1" date="halloweenQuestTesting" mode="dev"/>
+            </checks>
+            <button type="click" click="1"/>
+            <message value="halloweenQuest.test" type="halloweenQuest"/>
+        </element>
+        <element id="devSetDay" button="1" visible="0">
+            <checks>
+                <visible value="1" date="halloweenQuestTesting" mode="dev" gamestate="12,0,1"/>
+            </checks>
+            <button type="click" click="1"/>
+            <message value="halloweenQuest.setDay" type="halloweenQuest"/>
+        </element>
+        <element id="devGetReward" button="1" visible="0">
+            <checks>
+                <visible value="1" date="halloweenQuestTesting" mode="dev" gamestate="12,0,5"/>
+            </checks>
+            <button type="click" click="1"/>
+            <message value="halloweenQuest.getReward" type="halloweenQuest"/>
+        </element>
+        <element id="pumpkin1" button="1" visible="0" frame=":normal">
+            <checks>
+                <visible value="1" date="halloweenQuestTesting" mode="dev" gamestate="12,0,1-6"/>
+                <button value="0" gamestate="12,1,1"/>
+                <frame value=":light" gamestate="12,1,1"/>
+            </checks>
+            <button type="click" click="1"/>
+            <message value="halloweenQuest.pumpkin1" type="halloweenQuest"/>
+        </element>
+        <element id="pumpkin2" button="1" visible="0" frame=":normal">
+            <checks>
+                <visible value="1" date="halloweenQuestTesting" mode="dev" gamestate="12,0,1-6"/>
+                <button value="0" gamestate="12,2,1"/>
+                <frame value=":light" gamestate="12,2,1"/>
+            </checks>
+            <button type="click" click="1"/>
+            <message value="halloweenQuest.pumpkin2" type="halloweenQuest"/>
+        </element>
+        <element id="pumpkin3" button="1" visible="0" frame=":normal">
+            <checks>
+                <visible value="1" date="halloweenQuestTesting" mode="dev" gamestate="12,0,1-6"/>
+                <button value="0" gamestate="12,3,1"/>
+                <frame value=":light" gamestate="12,3,1"/>
+            </checks>
+            <button type="click" click="1"/>
+            <message value="halloweenQuest.pumpkin3" type="halloweenQuest"/>
+        </element>
+        <element id="pumpkin4" button="1" visible="0" frame=":normal">
+            <checks>
+                <visible value="1" date="halloweenQuestTesting" mode="dev" gamestate="12,0,1-6"/>
+                <button value="0" gamestate="12,4,1"/>
+                <frame value=":light" gamestate="12,4,1"/>
+            </checks>
+            <button type="click" click="1"/>
+            <message value="halloweenQuest.pumpkin4" type="halloweenQuest"/>
+        </element>
+        <element id="pumpkin5" button="1" visible="0" frame=":normal">
+            <checks>
+                <visible value="1" date="halloweenQuestTesting" mode="dev" gamestate="12,0,1-6"/>
+                <button value="0" gamestate="12,5,1"/>
+                <frame value=":light" gamestate="12,5,1"/>
+            </checks>
+            <button type="click" click="1"/>
+            <message value="halloweenQuest.pumpkin5" type="halloweenQuest"/>
+        </element>
+        <element id="pumpkin6" button="1" visible="0" frame=":normal">
+            <checks>
+                <visible value="1" date="halloweenQuestTesting" mode="dev" gamestate="12,0,1-6"/>
+                <button value="0" gamestate="12,6,1"/>
+                <frame value=":light" gamestate="12,6,1"/>
+            </checks>
+            <button type="click" click="1"/>
+            <message value="halloweenQuest.pumpkin6" type="halloweenQuest"/>
+        </element>
+        <element id="coffin" button="1" visible="1">
+            <button type="full" over="2" out="1"/>
+        </element>
+        <element id="door" button="1" visible="1">
+            <button type="over" over="2" out="1"/>
+        </element>
+        <element id="castaway" button="1" visible="1">
+            <button type="full" click="1" over="2" out="1"/>
+            <message value="askJoinGame" type="client">
+                <game value="12"/>
+            </message>
+        </element>
+        <element id="walkarea" frame=":default">
+            <checks>
+                <frame value=":summerQuest" date="summerQuest4"/>
+                <frame value=":transition2" date="transition2"/>
+                <frame value=":gulliver" date="gulliver"/>
+                <frame value=":carnival2011" date="carnival2011"/>
+                <frame value=":escape" date="whosThatBoy2"/>
+            </checks>
+        </element>
+    </elements>
+    <tooltips>
+        <tooltip id="castaway" type="game" name="GAME_NAME_12"/>
+        <tooltip id="bdayDoor" type="door" target="13" angle="-90"/>
+    </tooltips>
+    <hotspots>
+        <hotspot target="11" type="room" x="0" y="454" rad="85" angle="175"/>
+        <hotspot target="8" type="room" x="720" y="446" rad="80" angle="5"/>
+        <hotspot target="59" type="action" x="398" y="314" rad="55" angle="-90">
+            <checks>
+                <target value="allowEntryCastle"/>
+            </checks>
+        </hotspot>
+        <hotspot game="castaway" name="GAME_NAME_12"/>
+        <hotspot id="bdayDoor" target="13" type="action" x="225" y="360" rad="40">
+            <checks>
+                <type value="action" date="bday" gamestate="127,0,200"/>
+                <target value="timeTravelCheck" date="bday" gamestate="127,0,200"/>
+            </checks>
+        </hotspot>
+    </hotspots>
+    <actions>
+        <action id="allowEntryCastle">
+            <message value="checkCanEnterCastle" type="client"/>
+        </action>
+        <action id="timeTravelCheck">
+            <timeTravelCheck/>
+        </action>
+    </actions>
+    <properties>
+        <specialWalk value="6"/>
+    </properties>
+</module>
+</config>
